@@ -1,0 +1,36 @@
+.navtab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  background-color: #272727;
+}
+
+.navtab__link {
+  color: #FFF;
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-decoration: underline;
+}
+
+.navtab__link:last-of-type {
+  margin: 0;
+}
+
+.navtab__link:hover {
+  opacity: 0.85;
+  transition: all .35s ease-in-out;
+  transform: scale(97%);
+  filter: drop-shadow(4px 4px 10px #FFF);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .navtab__link {
+    font-size: 11px;
+    margin-right: 24px;
+  }
+
+}
